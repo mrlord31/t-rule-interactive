@@ -64,5 +64,18 @@ export function Footer() {
         </div>
       </div>
     </div>
+
+    <div style={{ padding: '6px 12px', borderTop: '1px solid var(--color-border)',
+                  display: 'flex', justifyContent: 'center', alignItems: 'center', gap: 6 }}>
+      <span style={{ fontSize: '0.6rem', color: 'var(--color-text-dim)' }}>
+        T-Rule Interactive — calculadora de salud financiera y proyección FIRE orientada al mercado español (IRPF, IS, Patrimonio). Sin backend. Sin registro.
+      </span>
+      <span style={{ fontSize: '0.6rem', color: 'var(--color-text-dim)' }}>·</span>
+      <a href="https://github.com/mrlord31/t-rule-interactive#readme"
+         target="_blank" rel="noopener noreferrer"
+         style={{ fontSize: '0.6rem', color: 'var(--color-asset)', textDecoration: 'none' }}>
+        Documentación técnica
+      </a>
+    </div>
   )
 }

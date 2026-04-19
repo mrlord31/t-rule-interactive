@@ -1,5 +1,7 @@
 # T-Rule Interactive
 
+**[🚀 Abrir aplicación](https://mrlord31.github.io/t-rule-interactive/)**
+
 Dashboard de finanzas personales de página única orientado al mercado español. Calcula salud financiera, proyecta la independencia financiera (FIRE), estima la carga fiscal (IRPF, IS, Impuesto Patrimonio) y visualiza el flujo del dinero en tiempo real. Todo el cálculo ocurre en el navegador — sin backend, sin registro, sin dependencias externas.
 
 > ⚠️ Herramienta de autoconocimiento financiero. No constituye asesoría financiera ni fiscal. Para decisiones de inversión consulta a un asesor certificado.
