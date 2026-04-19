@@ -22,6 +22,7 @@ export function Footer() {
   const color = STATUS_COLORS[m.fireStatus]
 
   return (
+    <>
     <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 8,
                   padding: '8px 12px', borderTop: '1px solid var(--color-border)' }}>
       {/* FIRE semaphore */}
@@ -77,5 +78,6 @@ export function Footer() {
         Documentación técnica
       </a>
     </div>
+    </>
   )
 }
