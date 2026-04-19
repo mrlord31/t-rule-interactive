@@ -1,10 +1,10 @@
 import { TopBar } from './components/TopBar/TopBar'
 import { KpiStrip } from './components/KpiStrip/KpiStrip'
-import { FinanceBlocks } from './components/KiyosakiBlocks/KiyosakiBlocks'
+import { FinanceBlocks } from './components/FinanceBlocks/FinanceBlocks'
 import { FlowDiagram } from './components/FlowDiagram/FlowDiagram'
 import { Alerts } from './components/Alerts/Alerts'
 import { TaxSummary } from './components/TaxSummary/TaxSummary'
-import { BudgetMotor } from './components/LinvestMotor/LinvestMotor'
+import { BudgetMotor } from './components/BudgetMotor/BudgetMotor'
 import { Simulator } from './components/Simulator/Simulator'
 import { Footer } from './components/Footer/Footer'
 

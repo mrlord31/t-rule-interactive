@@ -1,7 +1,7 @@
 import { render, screen, fireEvent } from '@testing-library/react'
 import { describe, it, expect } from 'vitest'
 import { AppProvider } from '../../context/AppContext'
-import { FinanceBlocks } from './KiyosakiBlocks'
+import { FinanceBlocks } from './FinanceBlocks'
 import { KpiStrip } from '../KpiStrip/KpiStrip'
 
 function renderWithProvider(ui: React.ReactElement) {

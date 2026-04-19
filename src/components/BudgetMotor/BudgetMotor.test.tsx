@@ -1,7 +1,7 @@
 import { render, screen, fireEvent } from '@testing-library/react'
 import { describe, it, expect } from 'vitest'
 import { AppProvider } from '../../context/AppContext'
-import { BudgetMotor } from './LinvestMotor'
+import { BudgetMotor } from './BudgetMotor'
 
 function renderWithProvider() {
   return render(<AppProvider><BudgetMotor /></AppProvider>)
