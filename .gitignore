@@ -7,11 +7,4 @@ coverage/
 # Tool and plugin artifacts
 .superpowers/
 .claude/
-docs/superpowers/
-
-# Superpowers worktree/session dirs (random-ID folders)
-5xSiaTtIN8dA5Uaz9FVfA/
-EHknbhUAv7ezNxuijOoRE/
-dE6_uWxo00e-Kb1jtLm-c/
-mF_-pQS6pK1KCnw7ZcKMa/
-gk5N3OeT4O2xjV_czhR4x/
+docs/
