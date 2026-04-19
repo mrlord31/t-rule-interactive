@@ -1,7 +1,6 @@
-// src/engine/taxes.test.ts
 import { describe, it, expect } from 'vitest'
 import { calcProgressive, calcTaxes, IP_MINIMO_EXENTO, IS_RATE,
-         IRPF_GENERAL_BRACKETS, IRPF_AHORRO_BRACKETS, IP_BRACKETS } from './taxes'
+         IRPF_GENERAL_BRACKETS, IRPF_AHORRO_BRACKETS } from './taxes'
 import { LineItem } from '../types'
 
 const item = (partial: Partial<LineItem> & Pick<LineItem, 'type' | 'amount'>): LineItem => ({
